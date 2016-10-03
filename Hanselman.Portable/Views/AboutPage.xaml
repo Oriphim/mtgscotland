@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:controls="clr-namespace:Hanselman.Portable.Helpers;assembly=Hanselman.Portable"
+            x:Class="Hanselman.Portable.Views.AboutPage"
+             Title="MTG Scotland">
+  <ScrollView>
+    <StackLayout Orientation="Vertical" Spacing="5">
+      <Image Aspect="AspectFill" Source="harrycover.png"/>
+      <StackLayout Spacing="5" 
+                   Padding="5" 
+                   VerticalOptions="FillAndExpand">
+
+        <Label
+               Text="Harry says you can do whatever you put your heart into. Believe in yourself. Preworkoutislyf"
+               LineBreakMode="WordWrap"/>
+
+        <StackLayout Orientation="Horizontal"
+                     HorizontalOptions="CenterAndExpand"
+                     Spacing="10">
+
+          <Image x:Name="twitter" Source="twitter.png"/>
+          <Image x:Name="facebook" Source="facebook.png"/>
+          <Image x:Name="instagram" Source="instagram.png"/>
+        </StackLayout>
+        
+      </StackLayout>
+    
+    </StackLayout>
+
+  </ScrollView>
+</ContentPage>
