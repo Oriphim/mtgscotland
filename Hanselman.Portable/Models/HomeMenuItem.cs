@@ -6,9 +6,8 @@ namespace Hanselman.Portable
     {
         About,
         Blog,
-        Twitter,
-        Ratchet,
-        DeveloperLife
+        Events,
+        Stores
     }
     public class HomeMenuItem : BaseModel
     {

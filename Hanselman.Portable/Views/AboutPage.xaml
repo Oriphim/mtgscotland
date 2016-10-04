@@ -11,9 +11,24 @@
                    Padding="5" 
                    VerticalOptions="FillAndExpand">
 
-        <Label
-               Text="Harry says you can do whatever you put your heart into. Believe in yourself. Preworkoutislyf"
-               LineBreakMode="WordWrap"/>
+        <Label>
+					<Label.FormattedText>
+						<FormattedString>
+							<Span>
+								<Span.Text>
+Welcome to the Magic: The Gathering Scotland App!
+
+This app was made as a comprehensive resource for MTG events, information and news in Scotland.
+ 
+All content in this App is a collaboration of different resources by the MTG Community in Scotland.
+ 
+If you spot any mistakes or just want to leave some feedback. Feel free to contact me on Twitter @Malakim								
+								</Span.Text>
+							</Span>
+						</FormattedString>
+
+					</Label.FormattedText>
+				</Label>
 
         <StackLayout Orientation="Horizontal"
                      HorizontalOptions="CenterAndExpand"

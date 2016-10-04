@@ -25,7 +25,7 @@ namespace Hanselman.Portable.Views
             {
                 if (listView.SelectedItem == null)
                     return;
-                this.Navigation.PushAsync(new PodcastPlaybackPage
+                this.Navigation.PushAsync(new StoresDetailView
                   (listView.SelectedItem as FeedItem));
                 listView.SelectedItem = null;
             };

@@ -1,20 +1,18 @@
 ﻿<Properties StartupConfiguration="{6BE27B2E-552F-43B2-82D5-058D7F180CEC}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
   <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="Hanselman.Android/Resources/values/Colors.xml" Line="1" Column="1" />
-      <File FileName="Hanselman.Android/Resources/values/Strings.xml" Line="4" Column="24" />
-      <File FileName="Hanselman.Android/Resources/values/styles.xml" Line="1" Column="1" />
-      <File FileName="Hanselman.Android/Resources/values-v21/styles.xml" Line="1" Column="1" />
-      <File FileName="Hanselman.Android/MainActivity.cs" Line="16" Column="27" />
-      <File FileName="Hanselman.Android/MainApplication.cs" Line="1" Column="1" />
-      <File FileName="Hanselman.Android/WearService.cs" Line="1" Column="1" />
+      <File FileName="Hanselman.Portable/Views/BlogDetailsView.cs" Line="12" Column="26" />
+      <File FileName="Hanselman.Portable/Views/EventsDetailsView.cs" Line="1" Column="1" />
+      <File FileName="Hanselman.Portable/ViewModels/EventsViewModel.cs" Line="16" Column="19" />
+      <File FileName="Hanselman.Portable/Views/StoresDetailView.cs" Line="2" Column="20" />
+      <File FileName="Hanselman.Portable/ViewModels/StoresPageViewModel.cs" Line="88" Column="5" />
     </Files>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.Hanselman.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.124d2a9ae86b74cc03c870364cf2272b8c638eba" />
+  <MonoDevelop.Ide.ItemProperties.Hanselman.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.5BF130F1-C90E-4A14-B406-48F20F1B0990" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.Hanselman.Android AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Nexus 4 (KitKat)Aug2016" AndroidDesignerPreferredTheme="MyTheme" />
+  <MonoDevelop.Ide.ItemProperties.Hanselman.Android AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Nexus 4 (Marshmallow)October2016" AndroidDesignerPreferredTheme="Theme.DeviceDefault" />
 </Properties>

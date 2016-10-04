@@ -27,7 +27,7 @@ namespace Hanselman.Portable.ViewModels
                     */
                 case MenuType.Ratchet:
                     image = "ratchet_full.jpg";
-                    Title= "Ratchet & The Geek";
+                    Title= "Local Game Stores";
                     break;
                 case MenuType.DeveloperLife:
                     image = "tdl_full.jpg";
@@ -90,10 +90,10 @@ namespace Hanselman.Portable.ViewModels
                         break;
                         */
                     case MenuType.Ratchet:
-                        feed = "https://dl.dropboxusercontent.com/u/11844221/MTGSCOT/mtgnews.xml";
+                        feed = "https://dl.dropboxusercontent.com/u/11844221/MTGSCOT/stores.xml";
                         break;
                     case MenuType.DeveloperLife:
-                        feed = "https://dl.dropboxusercontent.com/u/11844221/MTGSCOT/mtgnews.xml";
+                        feed = "https://dl.dropboxusercontent.com/u/11844221/MTGSCOT/stores.xml";
                         break;
                 }
                 var responseString = await httpClient.GetStringAsync(feed);
@@ -113,7 +113,7 @@ namespace Hanselman.Portable.ViewModels
             if (error)
             {
                 var page = new ContentPage();
-                var result = page.DisplayAlert("Error", "Unable to load podcast feed.", "OK");
+                var result = page.DisplayAlert("Error", "Unable to load store list.", "OK");
 
             }
 
@@ -127,6 +127,8 @@ namespace Hanselman.Portable.ViewModels
         /// </summary>
         /// <param name="rss"></param>
         /// <returns></returns>
+		/// 
+		/*
         private async Task<List<FeedItem>> ParseFeed(string rss)
         {
             return await Task.Run(() =>
@@ -146,9 +148,30 @@ namespace Hanselman.Portable.ViewModels
                             Mp3Url = (string)enclosure.Attribute("url"),
                             Image = image,
                             Id = id++
-                        }).ToList();
+
+
             });
         }
+			                      */
+
+		private async Task<List<FeedItem>> ParseFeed(string rss)
+		{
+			return await Task.Run(() =>
+				{
+					var xdoc = XDocument.Parse(rss);
+					var id = 0;
+					return (from item in xdoc.Descendants("item")
+							select new FeedItem
+							{
+								Title = (string)item.Element("title"),
+								Description = (string)item.Element("description"),
+								Link = (string)item.Element("link"),
+								PublishDate = (string)item.Element("pubDate"),
+								Category = (string)item.Element("category"),
+								Id = id++
+							}).ToList();
+				});
+		}
 
         /// <summary>
         /// Gets a specific feed item for an Id

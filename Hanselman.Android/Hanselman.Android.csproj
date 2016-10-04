@@ -234,6 +234,11 @@
     <AndroidResource Include="Resources\layout\toolbar.axml" />
     <AndroidResource Include="Resources\values\styles.xml" />
     <AndroidResource Include="Resources\values-v21\styles.xml" />
+    <AndroidResource Include="Resources\drawable\harrycover.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\harrycover.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\harrycover.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\harrycover.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\harrycover.png" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Hanselman.Portable\Hanselman.csproj">

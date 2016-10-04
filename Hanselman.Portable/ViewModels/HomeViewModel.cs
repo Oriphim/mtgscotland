@@ -32,8 +32,8 @@ namespace Hanselman.Portable
             MenuItems.Add(new HomeMenuItem
             {
                 Id = 2,
-                Title = "Twitter",
-                MenuType = MenuType.Twitter,
+                Title = "Events",
+				MenuType = MenuType.Events,
                 Icon = "twitternav.png"
             });
 			/*
@@ -48,18 +48,11 @@ namespace Hanselman.Portable
             MenuItems.Add(new HomeMenuItem
             {
                 Id = 3,
-                Title = "Ratchet & The Geek",
-                MenuType = MenuType.Ratchet,
+                Title = "Local Game Stores",
+				MenuType = MenuType.Stores,
                 Icon = "ratchet.png"
             });
 
-            MenuItems.Add(new HomeMenuItem
-            {
-                Id = 4,
-                Title = "This Developer's Life",
-                MenuType = MenuType.DeveloperLife,
-                Icon = "tdl.png"
-            });
         }
 
     }

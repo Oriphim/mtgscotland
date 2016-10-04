@@ -17,7 +17,7 @@ namespace Hanselman.Portable.Views
             Master = new MenuPage(this);
             BindingContext = new BaseViewModel
                 {
-                    Title = "Hanselman",
+                    Title = "MTGscotland",
                     Icon = "slideout.png"
                 };
             //setup home page
@@ -46,26 +46,28 @@ namespace Hanselman.Portable.Views
 
                 switch (id)
                 {
+					case MenuType.Events:
+						Pages.Add(id, new HanselmanNavigationPage(new EventsPage()));
+						break;
                     case MenuType.About:
                         Pages.Add(id, new HanselmanNavigationPage(new AboutPage()));
                         break;
                     case MenuType.Blog:
                         Pages.Add(id, new HanselmanNavigationPage(new BlogPage()));
-                        break;
-                    case MenuType.DeveloperLife:
-                        Pages.Add(id, new HanselmanNavigationPage(new PodcastPage(id)));
-                        break;
+                        break; 
 						/*
                     case MenuType.Hanselminutes:
                         Pages.Add(id, new HanselmanNavigationPage(new PodcastPage(id)));
                         break;
                         */
-                    case MenuType.Ratchet:
-                        Pages.Add(id, new HanselmanNavigationPage(new PodcastPage(id)));
+					case MenuType.Stores:
+                        Pages.Add(id, new HanselmanNavigationPage(new StoresPage()));
                         break;
+						/*
                     case MenuType.Twitter:
                         Pages.Add(id, new HanselmanNavigationPage(new TwitterPage()));
                         break;
+                        */
                 }
             }
 

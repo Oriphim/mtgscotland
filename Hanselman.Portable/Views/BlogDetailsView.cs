@@ -7,24 +7,25 @@ namespace Hanselman.Portable
 {
     public class BlogDetailsView : BaseView
     {
-        public BlogDetailsView(FeedItem item)
-        {
-            BindingContext = item;
-            var webView = new WebView
-            {
-                VerticalOptions = LayoutOptions.FillAndExpand,
-                HorizontalOptions = LayoutOptions.FillAndExpand
-            };
-            webView.Source = new HtmlWebViewSource
-            {
-                Html = item.Description
-            };
-            Content = new StackLayout
-            {
-                Children =
-        {
-          webView
-        }
+		public BlogDetailsView(FeedItem item)
+		{
+			BindingContext = item;
+			var webView = new WebView
+			{
+				VerticalOptions = LayoutOptions.FillAndExpand,
+				HorizontalOptions = LayoutOptions.FillAndExpand
+			};
+			webView.Source = new HtmlWebViewSource
+			{
+				Html = item.Description
+			};
+			Content = new StackLayout
+			{
+				Children =
+		{
+		  webView
+		}
+				/*
             };
             var share = new ToolbarItem
             {
@@ -35,7 +36,9 @@ namespace Hanselman.Portable
             };
 
             ToolbarItems.Add(share);
-        }
+            */
+			};
+		}
     }
 }
 
