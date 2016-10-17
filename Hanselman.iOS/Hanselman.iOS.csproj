@@ -224,6 +224,7 @@
     </BundleResource>
     <BundleResource Include="Resources\harry.jpg" />
     <BundleResource Include="Resources\harrycover.png" />
+    <BundleResource Include="Resources\mtgscotflag.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />

@@ -6,7 +6,7 @@
              Title="MTG Scotland">
   <ScrollView>
     <StackLayout Orientation="Vertical" Spacing="5">
-      <Image Aspect="AspectFill" Source="harrycover.png"/>
+      <Image Aspect="AspectFill" Source="mtgscotflag.png"/>
       <StackLayout Spacing="5" 
                    Padding="5" 
                    VerticalOptions="FillAndExpand">

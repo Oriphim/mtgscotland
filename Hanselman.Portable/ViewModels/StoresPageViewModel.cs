@@ -14,7 +14,7 @@ namespace Hanselman.Portable
 		public StoresPageViewModel()
 		{
 			Title = "Stores";
-			Icon = "harry.jpg";
+			Icon = "";
 		}
 
 

@@ -239,6 +239,11 @@
     <AndroidResource Include="Resources\drawable-mdpi\harrycover.png" />
     <AndroidResource Include="Resources\drawable-xhdpi\harrycover.png" />
     <AndroidResource Include="Resources\drawable-xxhdpi\harrycover.png" />
+    <AndroidResource Include="Resources\drawable\mtgscotflag.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\mtgscotflag.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\mtgscotflag.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\mtgscotflag.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\mtgscotflag.png" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Hanselman.Portable\Hanselman.csproj">

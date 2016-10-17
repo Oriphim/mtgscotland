@@ -2506,38 +2506,41 @@ namespace HanselmanAndroid
 			// aapt resource value: 0x7f0200d6
 			public const int mr_ic_play_light = 2130837718;
 			
-			// aapt resource value: 0x7f0200e1
-			public const int notification_template_icon_bg = 2130837729;
-			
 			// aapt resource value: 0x7f0200d7
-			public const int ratchet = 2130837719;
+			public const int mtgscotflag = 2130837719;
+			
+			// aapt resource value: 0x7f0200e2
+			public const int notification_template_icon_bg = 2130837730;
 			
 			// aapt resource value: 0x7f0200d8
-			public const int ratchet_full = 2130837720;
+			public const int ratchet = 2130837720;
 			
 			// aapt resource value: 0x7f0200d9
-			public const int refresh = 2130837721;
+			public const int ratchet_full = 2130837721;
 			
 			// aapt resource value: 0x7f0200da
-			public const int scott = 2130837722;
+			public const int refresh = 2130837722;
 			
 			// aapt resource value: 0x7f0200db
-			public const int scott159 = 2130837723;
+			public const int scott = 2130837723;
 			
 			// aapt resource value: 0x7f0200dc
-			public const int slideout = 2130837724;
+			public const int scott159 = 2130837724;
 			
 			// aapt resource value: 0x7f0200dd
-			public const int tdl = 2130837725;
+			public const int slideout = 2130837725;
 			
 			// aapt resource value: 0x7f0200de
-			public const int tdl_full = 2130837726;
+			public const int tdl = 2130837726;
 			
 			// aapt resource value: 0x7f0200df
-			public const int twitter = 2130837727;
+			public const int tdl_full = 2130837727;
 			
 			// aapt resource value: 0x7f0200e0
-			public const int twitternav = 2130837728;
+			public const int twitter = 2130837728;
+			
+			// aapt resource value: 0x7f0200e1
+			public const int twitternav = 2130837729;
 			
 			static Drawable()
 			{
