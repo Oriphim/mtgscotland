@@ -1,23 +1,25 @@
-﻿<Properties StartupConfiguration="{6BE27B2E-552F-43B2-82D5-058D7F180CEC}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
-  <MonoDevelop.Ide.Workbench>
+﻿<Properties StartupConfiguration="{E5B4A6E4-CAAA-4E33-BC65-4D8214905BB3}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Hanselman.iOS/Main.cs">
     <Files>
-      <File FileName="Hanselman.Portable/Views/BlogDetailsView.cs" Line="10" Column="40" />
-      <File FileName="Hanselman.Portable/Views/EventsDetailsView.cs" Line="1" Column="1" />
-      <File FileName="Hanselman.Portable/ViewModels/EventsViewModel.cs" Line="23" Column="16" />
-      <File FileName="Hanselman.Portable/Views/StoresDetailView.cs" Line="2" Column="20" />
-      <File FileName="Hanselman.Portable/ViewModels/StoresPageViewModel.cs" Line="31" Column="3" />
-      <File FileName="Hanselman.Portable/Views/BaseView.cs" Line="1" Column="1" />
-      <File FileName="Hanselman.Portable/Views/RootPage.cs" Line="1" Column="1" />
-      <File FileName="Hanselman.Portable/ViewModels/HomeViewModel.cs" Line="1" Column="1" />
-      <File FileName="Hanselman.Portable/ViewModels/BaseViewModel.cs" Line="1" Column="1" />
-      <File FileName="Hanselman.Portable/Views/AboutPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="Hanselman.Portable/Views/StoresPage.xaml" Line="29" Column="49" />
+      <File FileName="Hanselman.Portable/ViewModels/StoresPageViewModel.cs" Line="73" Column="1" />
+      <File FileName="Hanselman.Portable/Models/FeedItem.cs" Line="111" Column="1" />
+      <File FileName="Hanselman.iOS/Main.cs" Line="17" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.Hanselman.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.124d2a9ae86b74cc03c870364cf2272b8c638eba" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.ItemProperties.Hanselman.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.C03709F6-9CBF-441E-BEAA-F48FFFDC21DE" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/HenryTsang/Downloads/MTGScotland/Hanselman.Portable/Views/WebsiteView.cs" line="11" column="1" />
+      <Breakpoint file="/Users/HenryTsang/Downloads/MTGScotland/Hanselman.Portable/Models/FeedItem.cs" line="127" column="1" />
+      <Breakpoint file="/Users/HenryTsang/Downloads/MTGScotland/Hanselman.Portable/Models/FeedItem.cs" line="110" column="1" />
+      <Breakpoint file="/Users/HenryTsang/Downloads/MTGScotland/Hanselman.Portable/Models/FeedItem.cs" line="113" column="1" />
+      <Breakpoint file="/Users/HenryTsang/Downloads/MTGScotland/Hanselman.Portable/Models/FeedItem.cs" line="111" column="1" />
+      <Breakpoint file="/Users/HenryTsang/Downloads/MTGScotland/Hanselman.Portable/Models/FeedItem.cs" line="141" column="1" />
+      <Breakpoint file="/Users/HenryTsang/Downloads/MTGScotland/Hanselman.Portable/Models/FeedItem.cs" line="140" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.Hanselman.Android AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Nexus 7 (Jelly Bean)sept" AndroidDesignerPreferredTheme="Theme.DeviceDefault" />
+  <MonoDevelop.Ide.ItemProperties.Hanselman.Android AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Nexus 7 (Marshmallow)" AndroidDesignerPreferredTheme="Theme.DeviceDefault" />
 </Properties>

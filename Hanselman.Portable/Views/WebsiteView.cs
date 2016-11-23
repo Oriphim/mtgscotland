@@ -1,6 +1,7 @@
 ﻿using System;
 using Xamarin.Forms;
 
+
 namespace Hanselman.Portable
 {
     public class WebsiteView : BaseView
@@ -15,6 +16,8 @@ namespace Hanselman.Portable
             };
             Content = webView;
         }
+
+
     }
 }
 

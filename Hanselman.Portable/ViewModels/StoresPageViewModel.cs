@@ -14,7 +14,7 @@ namespace Hanselman.Portable
 		public StoresPageViewModel()
 		{
 			Title = "Stores";
-			Icon = "";
+			Icon = "ic_pause";
 		}
 
 
@@ -111,6 +111,8 @@ namespace Hanselman.Portable
 								Link = (string)item.Element("link"),
 								PublishDate = (string)item.Element("pubDate"),
 								Category = (string)item.Element("category"),
+								Address = (string)item.Element("address"),
+								ImageURL = (string)item.Element("imageURL"),
 								Id = id++
 							}).ToList();
 				});

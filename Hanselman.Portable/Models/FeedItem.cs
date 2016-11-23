@@ -30,6 +30,9 @@ namespace Hanselman.Portable
         public int Id { get; set; }
         public string CommentCount { get; set; }
         public string Category { get; set; }
+		public string ImageURL { get; set; }
+
+		public string Address { get; set; } 
 
         public string Mp3Url { get; set; }
 
@@ -105,12 +108,21 @@ namespace Hanselman.Portable
 
 
                 var regx = new Regex("http://([\\w+?\\.\\w+])+([a-zA-Z0-9\\~\\!\\@\\#\\$\\%\\^\\&amp;\\*\\(\\)_\\-\\=\\+\\\\\\/\\?\\.\\:\\;\\'\\,]*)?.(?:jpg|bmp|gif|png)", RegexOptions.IgnoreCase);
-                var matches = regx.Matches(Description);
+				//var matches = regx.Matches(ImageURL);
+				//var matches = regx.Matches(ImageURL);
+				//var testyImageURL = ImageURL;
 
-                if (matches.Count == 0)
-                    firstImage = ScottHead;
-                else
-                    firstImage = matches[0].Value;
+				//if (matches.Count == 0)
+				//    firstImage = ScottHead;
+				//else
+				//    firstImage = matches[0].Value;
+
+				if (ImageURL != null)
+				{
+					firstImage = ImageURL;
+				}
+
+
 
                 return firstImage;
             }
@@ -124,6 +136,28 @@ namespace Hanselman.Portable
                 return UriImageSource.FromUri(new Uri(image));
             }
         }
+		/*
+		private string spellboundImage;
+		public string SpellboundImage
+		{
+			get
+			{
+				if (!string.IsNullOrWhiteSpace(spellboundImage))
+					return spellboundImage;
+
+
+				var regx = new Regex("http://([\\w+?\\.\\w+])+([a-zA-Z0-9\\~\\!\\@\\#\\$\\%\\^\\&amp;\\*\\(\\)_\\-\\=\\+\\\\\\/\\?\\.\\:\\;\\'\\,]*)?.(?:jpg|bmp|gif|png)", RegexOptions.IgnoreCase);
+				var matches = regx.Matches(Description);
+
+				if (matches.Count == 0)
+					spellboundImage = ScottHead;
+				else
+					spellboundImage = matches[0].Value;
+
+				return spellboundImage;
+			}
+		}
+*/
 
         public string ScottHead { get { return "https://dl.dropboxusercontent.com/u/11844221/MTGSCOT/harry.png"; } }
 
