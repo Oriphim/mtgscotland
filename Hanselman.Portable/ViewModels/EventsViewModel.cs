@@ -110,7 +110,7 @@ namespace Hanselman.Portable
 								Description = (string)item.Element("description"),
 								Link = (string)item.Element("link"),
 								PublishDate = (string)item.Element("pubDate"),
-								Category = (string)item.Element("category"),
+								Category = (string)item.Element("category"),// Add Type or URL
 								Id = id++
 							}).ToList();
 				});

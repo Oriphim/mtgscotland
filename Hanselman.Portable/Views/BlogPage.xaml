@@ -21,7 +21,7 @@
           <ViewCell>
             <Grid Padding="10">
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="80"/>
+                    <ColumnDefinition Width="0"/>
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
               <StackLayout Grid.Column="1"
@@ -32,14 +32,14 @@
                 <Label Text="{Binding Caption}" FontSize="Small" LineBreakMode="WordWrap"/>
               </StackLayout>
 
-                <controls:CircleImage HeightRequest="80"
+              <!--  <controls:CircleImage HeightRequest="80"
                      WidthRequest="80"
                      Source="{Binding FirstImage}"
                      Aspect="AspectFill"
                      VerticalOptions="Center"
                     BorderColor="#03A9F4"
                     BorderThickness="2"
-                    FillColor="#03A9F4"/>
+                    FillColor="#03A9F4"/> !-->
 
             </Grid>
           </ViewCell>
