@@ -33,5 +33,12 @@ namespace HanselmanAndroid
 
          
         }
+
+		public override void OnBackPressed()
+		{
+			base.OnBackPressed();
+
+		}
+
     }
 }

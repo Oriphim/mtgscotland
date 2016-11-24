@@ -111,6 +111,7 @@ namespace Hanselman.Portable
 								Link = (string)item.Element("link"),
 								PublishDate = (string)item.Element("pubDate"),
 								Category = (string)item.Element("category"),// Add Type or URL
+								ImageURL = (string)item.Element("imageURL"),
 								Id = id++
 							}).ToList();
 				});
