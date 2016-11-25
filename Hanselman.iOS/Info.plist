@@ -27,15 +27,6 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
-	<key>CFBundleIconFiles</key>
-	<array>
-		<string>Icon@2x.png</string>
-		<string>Icon.png</string>
-		<string>Icon-60@2x.png</string>
-		<string>Icon-Small@2x.png</string>
-		<string>Icon-Small.png</string>
-		<string>Icon-Small-40@2x.png</string>
-	</array>
 	<key>UIPrerenderedIcon</key>
 	<true/>
 	<key>NSAppTransportSecurity</key>
@@ -47,5 +38,7 @@
 	<string>LaunchScreen.storyboard</string>
 	<key>CFBundleName</key>
 	<string>MTGScot</string>
+	<key>XSAppIconAssets</key>
+	<string>Assets.xcassets/AppIcon.appiconset</string>
 </dict>
 </plist>
