@@ -242,6 +242,17 @@
     <AndroidResource Include="Resources\drawable-mdpi\mtgscotflag.png" />
     <AndroidResource Include="Resources\drawable-xhdpi\mtgscotflag.png" />
     <AndroidResource Include="Resources\drawable-xxhdpi\mtgscotflag.png" />
+    <AndroidResource Include="Resources\drawable\scotflag.png" />
+    <AndroidResource Include="Resources\drawable\events.png" />
+    <AndroidResource Include="Resources\drawable\stores.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\events.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\stores.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\events.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\stores.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\events.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\stores.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\events.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\stores.png" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Hanselman.Portable\Hanselman.csproj">

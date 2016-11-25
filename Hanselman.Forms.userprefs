@@ -1,22 +1,16 @@
 ﻿<Properties StartupConfiguration="{6BE27B2E-552F-43B2-82D5-058D7F180CEC}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Hanselman.Portable/Views/StoresDetailView.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Hanselman.Portable/Views/BaseView.cs">
     <Files>
-      <File FileName="Hanselman.Portable/ViewModels/EventsViewModel.cs" Line="116" Column="20" />
-      <File FileName="Hanselman.Portable/ViewModels/StoresPageViewModel.cs" Line="114" Column="18" />
-      <File FileName="Hanselman.Portable/Models/FeedItem.cs" Line="81" Column="38" />
-      <File FileName="Hanselman.Android/MainActivity.cs" Line="36" Column="3" />
-      <File FileName="Hanselman.Portable/Views/BaseView.cs" Line="12" Column="3" />
-      <File FileName="Hanselman.Portable/Views/EventsDetailsView.cs" Line="31" Column="3" />
-      <File FileName="Hanselman.Portable/Views/StoresDetailView.cs" Line="74" Column="52" />
+      <File FileName="Hanselman.Portable/Views/BlogPage.xaml" Line="49" Column="49" />
+      <File FileName="Hanselman.Portable/Views/EventsPage.xaml" Line="1" Column="1" />
+      <File FileName="Hanselman.Portable/Views/MenuPage.xaml" Line="10" Column="20" />
+      <File FileName="Hanselman.Portable/Views/TwitterPage.xaml" Line="1" Column="1" />
+      <File FileName="Hanselman.Portable/Views/StoresPage.xaml" Line="1" Column="1" />
+      <File FileName="Hanselman.Portable/Views/BaseView.cs" Line="13" Column="3" />
+      <File FileName="Hanselman.Portable/Views/EventsDetailsView.cs" Line="34" Column="4" />
+      <File FileName="Hanselman.Portable/Views/BlogDetailsView.cs" Line="45" Column="4" />
+      <File FileName="Hanselman.Portable/Views/StoresDetailView.cs" Line="25" Column="5" />
     </Files>
-    <Pads>
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State>
-          <Value>clt</Value>
-          <Value>item.Value</Value>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.Hanselman.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.124d2a9ae86b74cc03c870364cf2272b8c638eba" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />

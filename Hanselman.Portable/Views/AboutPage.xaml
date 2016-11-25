@@ -35,8 +35,8 @@ If you spot any mistakes or just want to leave some feedback. Feel free to conta
                      Spacing="10">
 
           <Image x:Name="twitter" Source="twitter.png"/>
-          <Image x:Name="facebook" Source="facebook.png"/>
-          <Image x:Name="instagram" Source="instagram.png"/>
+          <Image x:Name="facebook" Source="face111book.png"/>
+          <Image x:Name="instagram" Source="insta111gram.png"/>
         </StackLayout>
         
       </StackLayout>

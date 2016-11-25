@@ -216,15 +216,14 @@
     <BundleResource Include="Resources\instagram%402x.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </BundleResource>
-    <BundleResource Include="Resources\twitternav.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </BundleResource>
-    <BundleResource Include="Resources\twitternav%402x.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </BundleResource>
     <BundleResource Include="Resources\harry.jpg" />
     <BundleResource Include="Resources\harrycover.png" />
     <BundleResource Include="Resources\mtgscotflag.png" />
+    <BundleResource Include="Resources\events.png" />
+    <BundleResource Include="Resources\events%402x.png" />
+    <BundleResource Include="Resources\stores.png" />
+    <BundleResource Include="Resources\stores%402x.png" />
+    <BundleResource Include="Resources\scotflag.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
@@ -260,11 +259,6 @@
     </BundleResource>
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\ratchet.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </BundleResource>
-  </ItemGroup>
-  <ItemGroup>
     <BundleResource Include="Resources\hm_full.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </BundleResource>
@@ -286,11 +280,6 @@
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\hm%402x.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </BundleResource>
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\ratchet%402x.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </BundleResource>
   </ItemGroup>

@@ -39,6 +39,10 @@ namespace Hanselman.Portable
             */
 			};
 		}
+		protected override bool OnBackButtonPressed()
+		{
+			return true;
+		}
     }
 }
 

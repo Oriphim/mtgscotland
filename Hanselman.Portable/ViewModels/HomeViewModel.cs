@@ -34,7 +34,7 @@ namespace Hanselman.Portable
                 Id = 2,
                 Title = "Events",
 				MenuType = MenuType.Events,
-                Icon = "twitternav.png"
+                Icon = "events.png"
             });
 			/*
             MenuItems.Add(new HomeMenuItem
@@ -50,7 +50,7 @@ namespace Hanselman.Portable
                 Id = 3,
                 Title = "Local Game Stores",
 				MenuType = MenuType.Stores,
-                Icon = "ratchet.png"
+                Icon = "stores.png"
             });
 
         }
