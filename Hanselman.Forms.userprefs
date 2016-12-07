@@ -1,25 +1,21 @@
 ﻿<Properties StartupConfiguration="{6BE27B2E-552F-43B2-82D5-058D7F180CEC}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Hanselman.Android/MainActivity.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Hanselman.Android/Resources/values-v21/styles.xml">
     <Files>
-      <File FileName="Hanselman.Portable/Views/BlogPage.xaml" Line="49" Column="49" />
-      <File FileName="Hanselman.Portable/Views/EventsPage.xaml" Line="1" Column="1" />
-      <File FileName="Hanselman.Portable/Views/MenuPage.xaml" Line="10" Column="20" />
-      <File FileName="Hanselman.Portable/Views/TwitterPage.xaml" Line="1" Column="1" />
-      <File FileName="Hanselman.Portable/Views/StoresPage.xaml" Line="1" Column="1" />
-      <File FileName="Hanselman.Portable/Views/BaseView.cs" Line="13" Column="3" />
-      <File FileName="Hanselman.Portable/Views/EventsDetailsView.cs" Line="34" Column="4" />
-      <File FileName="Hanselman.Portable/Views/BlogDetailsView.cs" Line="45" Column="4" />
-      <File FileName="Hanselman.Portable/Views/StoresDetailView.cs" Line="39" Column="12" />
-      <File FileName="Hanselman.iOS/Info.plist" />
-      <File FileName="Hanselman.Android/Resources/values/styles.xml" Line="14" Column="43" />
-      <File FileName="Hanselman.Android/MainActivity.cs" Line="36" Column="1" />
+      <File FileName="Hanselman.Portable/Views/BlogPage.xaml" Line="29" Column="53" />
+      <File FileName="Hanselman.Portable/App.cs" Line="1" Column="1" />
+      <File FileName="Hanselman.Portable/Views/BaseView.cs" Line="1" Column="1" />
+      <File FileName="Hanselman.Portable/Views/RootPage.cs" Line="1" Column="1" />
+      <File FileName="Hanselman.Android/MainActivity.cs" Line="1" Column="1" />
+      <File FileName="Hanselman.Android/MainApplication.cs" Line="1" Column="1" />
+      <File FileName="Hanselman.Android/Resources/values/styles.xml" Line="7" Column="4" />
+      <File FileName="Hanselman.Android/Resources/values-v21/styles.xml" Line="7" Column="73" />
     </Files>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.Hanselman.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.124d2a9ae86b74cc03c870364cf2272b8c638eba" />
+  <MonoDevelop.Ide.ItemProperties.Hanselman.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.C03709F6-9CBF-441E-BEAA-F48FFFDC21DE" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.Hanselman.Android AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Nexus 10 (KitKat)" AndroidDesignerPreferredTheme="Theme.DeviceDefault" />
+  <MonoDevelop.Ide.ItemProperties.Hanselman.Android AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Nexus 5 (Lollipop)November2016" AndroidDesignerPreferredTheme="Theme.DeviceDefault" />
 </Properties>

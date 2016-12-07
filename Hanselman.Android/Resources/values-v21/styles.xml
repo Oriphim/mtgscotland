@@ -1,11 +1,25 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <resources>
-  <!--
-        Base application theme for API 21+. This theme completely replaces
-        MyTheme from BOTH res/values/styles.xml on API 21+ devices.
-    -->
   <style name="MyTheme" parent="MyTheme.Base">
-    <item name="android:windowDrawsSystemBarBackgrounds">true</item>
-    <item name="android:statusBarColor">@android:color/transparent</item>
+  </style>
+  <!-- Base theme applied no matter what API -->
+  <style name="MyTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">
+		 <item name="android:windowBackground">@color/window_background</item>
+   
+    
+    <!-- Set theme colors from http://www.google.com/design/spec/style/color.html#color-color-palette-->
+    <!-- colorPrimary is used for the default action bar background -->
+    <item name="colorPrimary">@color/primary</item>
+    <!-- colorPrimaryDark is used for the status bar -->
+    <item name="colorPrimaryDark">@color/primaryDark</item>
+    <!-- colorAccent is used as the default value for colorControlActivated
+         which is used to tint widgets -->
+    <item name="colorAccent">@color/accent</item>
+    <!-- You can also set colorControlNormal, colorControlActivated
+		 <style name="MyTheme.Splash" parent ="Theme.AppCompat.Light">
+    <item name="android:windowBackground">@drawable/splash</item>
+    <item name="android:windowNoTitle">true</item>  
+  </style> <item name="android:windowNoTitle">true</item>  
+         colorControlHighlight and colorSwitchThumbNormal. -->
   </style>
 </resources>

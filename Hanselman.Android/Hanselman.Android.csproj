@@ -41,7 +41,7 @@
     <RunCodeAnalysis>false</RunCodeAnalysis>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <DebugType>full</DebugType>
+    <DebugType></DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release</OutputPath>
     <ErrorReport>prompt</ErrorReport>
@@ -249,16 +249,16 @@
     <AndroidResource Include="Resources\drawable-xhdpi\stores.png" />
     <AndroidResource Include="Resources\drawable-xxhdpi\events.png" />
     <AndroidResource Include="Resources\drawable-xxhdpi\stores.png" />
-    <AndroidResource Include="Resources\drawable\splash.png" />
-    <AndroidResource Include="Resources\drawable-hdpi\splash.png" />
-    <AndroidResource Include="Resources\drawable-mdpi\splash.png" />
-    <AndroidResource Include="Resources\drawable-xhdpi\splash.png" />
-    <AndroidResource Include="Resources\drawable-xxhdpi\splash.png" />
-    <AndroidResource Include="Resources\drawable\ic_launcher.png" />
     <AndroidResource Include="Resources\drawable-hdpi\ic_launcher.png" />
     <AndroidResource Include="Resources\drawable-mdpi\ic_launcher.png" />
     <AndroidResource Include="Resources\drawable-xhdpi\ic_launcher.png" />
     <AndroidResource Include="Resources\drawable-xxhdpi\ic_launcher.png" />
+    <AndroidResource Include="Resources\drawable\ic_launcher.png" />
+    <AndroidResource Include="Resources\drawable\splash.9.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\splash.9.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\splash.9.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\splash.9.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\splash.9.png" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Hanselman.Portable\Hanselman.csproj">
